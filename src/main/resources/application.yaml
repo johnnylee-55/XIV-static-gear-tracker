@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: tracker
+    username: tracker
+    url: jdbc:mysql://localhost:3306/xivgeartracker
+
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug

@@ -10,7 +10,7 @@ public class BasicGearTrackerController implements GearTrackerController {
 
   @Override
   public RaidingStatic fetchRaidingStatic(Integer raidingStaticId) {
-    log.info("raidingStaticId={}", raidingStaticId);
+    log.debug("raidingStaticId={}", raidingStaticId);
     return null;
   }
 

@@ -16,7 +16,7 @@ INSERT INTO player_character (character_name, job) VALUES ('Thancred Waters', 'G
 INSERT INTO player_character (character_name, job) VALUES ('Warrior of Light', 'PLD');
 INSERT INTO player_character (character_name, job) VALUES ('Urianger Augurelt', 'AST');
 INSERT INTO player_character (character_name, job) VALUES ('Alphinaud Leveilleur', 'SGE');
-INSERT INTO player_character (character_name, job) VALUES ('Y''shtola', 'BLM');
+INSERT INTO player_character (character_name, job) VALUES ('Y''shtola Rhul', 'BLM');
 INSERT INTO player_character (character_name, job) VALUES ('Estinien Wyrmblood', 'DRG');
 INSERT INTO player_character (character_name, job) VALUES ('Alisaie Leveilleur', 'RDM');
 INSERT INTO player_character (character_name, job) VALUES ('G''raha Tia', 'BLM');

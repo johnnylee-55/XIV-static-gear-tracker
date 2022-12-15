@@ -13,11 +13,7 @@ CREATE TABLE raiding_static (
 CREATE TABLE player_character (
 	character_id INT AUTO_INCREMENT NOT NULL,
 	character_name VARCHAR(64) NOT NULL,
-	job ENUM ("PLD","WAR","DRK","GNB",
-				"SGE","SCH","AST","WHM",
-				"MNK","RPR","SAM","NIN","DRG",
-				"BRD","MCH","DNC",
-				"BLM","RDM","SMN"),
+	job ENUM ('PLD','WAR','DRK','GNB','SGE','SCH','AST','WHM','MNK','RPR','SAM','NIN','DRG','BRD','MCH','DNC','BLM','RDM','SMN'),
 	PRIMARY KEY (character_id)
 );
 
@@ -31,8 +27,7 @@ CREATE TABLE static_composition (
 CREATE TABLE gear (
 	gear_id INT AUTO_INCREMENT NOT NULL,
 	gear_name VARCHAR(64) NOT NULL,
-	gear_slot ENUM ("WEAPON","HEAD","CHEST","HANDS","LEGS","FEET",
-					"EAR","NECK","WRIST","RING") NOT NULL,
+	gear_slot ENUM ('WEAPON','HEAD','CHEST','HANDS','LEGS','FEET','EAR','NECK','WRIST','RING') NOT NULL,
 	acquisition_info TEXT,
 	PRIMARY KEY (gear_id)
 );

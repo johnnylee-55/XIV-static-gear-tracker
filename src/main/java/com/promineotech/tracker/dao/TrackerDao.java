@@ -1,10 +1,10 @@
-package com.promineotech.tracker.service;
+package com.promineotech.tracker.dao;
 
 import java.util.List;
 import com.promineotech.tracker.entity.PlayerCharacter;
 import com.promineotech.tracker.entity.RaidingStatic;
 
-public interface TrackerService {
+public interface TrackerDao {
 
   /**
    * @param raidingStaticId
@@ -17,5 +17,5 @@ public interface TrackerService {
    * @return
    */
   List<PlayerCharacter> fetchRaidingStaticMembers(Integer raidingStaticId);
-  
+
 }
